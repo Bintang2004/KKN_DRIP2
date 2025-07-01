@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
     min-height: 100vh;
     color: #2c3e50;
     line-height: 1.6;
@@ -45,8 +45,8 @@ body {
 
 .logo-icon {
     font-size: 2.5rem;
-    color: #3498db;
-    background: linear-gradient(45deg, #3498db, #2980b9);
+    color: #27ae60;
+    background: linear-gradient(45deg, #27ae60, #2ecc71);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -153,7 +153,7 @@ body {
 }
 
 .card-header i {
-    color: #3498db;
+    color: #27ae60;
 }
 
 /* Tank Status Badge */
@@ -173,9 +173,9 @@ body {
 }
 
 .tank-status-badge.good {
-    background: rgba(241, 196, 15, 0.2);
-    color: #f39c12;
-    border: 1px solid rgba(241, 196, 15, 0.3);
+    background: rgba(39, 174, 96, 0.2);
+    color: #27ae60;
+    border: 1px solid rgba(39, 174, 96, 0.3);
 }
 
 .tank-status-badge.low {
@@ -284,7 +284,7 @@ body {
 
 .input-group input:focus {
     outline: none;
-    border-color: #3498db;
+    border-color: #27ae60;
 }
 
 .input-group span {
@@ -298,7 +298,7 @@ body {
     padding: 0.5rem;
     background: #f8f9fa;
     border-radius: 8px;
-    border-left: 4px solid #3498db;
+    border-left: 4px solid #27ae60;
 }
 
 /* Tank Controls */
@@ -326,36 +326,36 @@ body {
 }
 
 .btn-primary {
-    background: linear-gradient(45deg, #3498db, #2980b9);
+    background: linear-gradient(45deg, #27ae60, #2ecc71);
     color: white;
-    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+    box-shadow: 0 4px 15px rgba(39, 174, 96, 0.3);
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+    box-shadow: 0 6px 20px rgba(39, 174, 96, 0.4);
 }
 
 .btn-secondary {
-    background: linear-gradient(45deg, #95a5a6, #7f8c8d);
+    background: linear-gradient(45deg, #16a085, #1abc9c);
     color: white;
-    box-shadow: 0 4px 15px rgba(149, 165, 166, 0.3);
+    box-shadow: 0 4px 15px rgba(22, 160, 133, 0.3);
 }
 
 .btn-secondary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(149, 165, 166, 0.4);
+    box-shadow: 0 6px 20px rgba(22, 160, 133, 0.4);
 }
 
 .btn-info {
-    background: linear-gradient(45deg, #9b59b6, #8e44ad);
+    background: linear-gradient(45deg, #229954, #58d68d);
     color: white;
-    box-shadow: 0 4px 15px rgba(155, 89, 182, 0.3);
+    box-shadow: 0 4px 15px rgba(34, 153, 84, 0.3);
 }
 
 .btn-info:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(155, 89, 182, 0.4);
+    box-shadow: 0 6px 20px rgba(34, 153, 84, 0.4);
 }
 
 .btn-small {
@@ -495,7 +495,7 @@ body {
     justify-content: center;
     font-size: 1.5rem;
     color: white;
-    background: linear-gradient(45deg, #3498db, #2980b9);
+    background: linear-gradient(45deg, #27ae60, #2ecc71);
 }
 
 .stat-content h3 {
@@ -659,7 +659,7 @@ body {
     border-radius: 10px;
     padding: 1rem 1.5rem;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-    border-left: 4px solid #3498db;
+    border-left: 4px solid #27ae60;
     min-width: 300px;
     animation: slideInRight 0.3s ease;
 }
