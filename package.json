@@ -4,9 +4,9 @@
   "description": "Smart Drip Irrigation System with Water Tank Management",
   "main": "index.html",
   "scripts": {
-    "dev": "python3 -m http.server 3000",
-    "start": "python3 -m http.server 3000",
-    "serve": "python3 -m http.server 3000"
+    "dev": "npx serve -s . -l 3000",
+    "start": "npx serve -s . -l 3000",
+    "serve": "npx serve -s . -l 3000"
   },
   "keywords": [
     "irrigation",
